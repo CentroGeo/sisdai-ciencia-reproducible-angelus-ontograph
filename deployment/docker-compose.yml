@@ -1,0 +1,23 @@
+version: '3'
+
+networks:
+  default:
+    external:
+      name: proxy_traefik
+
+services:
+  visualizador:
+    image: angelus-visualizador:latest
+    networks:
+      - default
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.middlewares.visualizador-https.redirectscheme.scheme=https"
+      - "traefik.http.routers.visualizador-http.entrypoints=web"
+      - "traefik.http.routers.visualizador-http.rule=Host(`${VUE_APP_KEYCLOAK_REDIRECT_URL}`)"
+      - "traefik.http.routers.visualizador-http.middlewares=visualizador-https@docker"
+      - "traefik.http.routers.visualizador.entrypoints=web-secure"
+      - "traefik.http.routers.visualizador.rule=Host(`${VUE_APP_KEYCLOAK_REDIRECT_URL`)"
+      - "traefik.http.routers.visualizador.tls=true"
+      - "traefik.http.services.visualizador.loadbalancer.server.port=80"

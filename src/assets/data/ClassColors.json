@@ -1,0 +1,28 @@
+{
+    "<https://ontologias.pruebas.org/v1.0/PeriodoTemporal>": "#566556",
+
+    "<https://ontologias.pruebas.org/v1.0/Lugar>": "#247BA0",
+
+    "<https://ontologias.pruebas.org/v1.0/ProcesoInstitucional>": "#183D34",
+
+    "<https://ontologias.pruebas.org/v1.0/Persona>": "#6F54DB",
+        "<https://ontologias.pruebas.org/v1.0/Buscador>": "#7F3DF5",
+        "<https://ontologias.pruebas.org/v1.0/Perpetrador>": "#7D78F5",
+        "<https://ontologias.pruebas.org/v1.0/Testigo>": "#9BA3EB",
+        "<https://ontologias.pruebas.org/v1.0/VíctimaDirecta>": "#7F3DF5",
+        "<https://ontologias.pruebas.org/v1.0/ServidorPúblico>": "#871EEB",
+        "<https://ontologias.pruebas.org/v1.0/Autor>": "#5F63F5",
+        "<https://ontologias.pruebas.org/v1.0/Familiar>": "#6125F5",
+
+    "<https://ontologias.pruebas.org/v1.0/Organización>": "#9E8111",
+    
+    "<https://ontologias.pruebas.org/v1.0/Evento>": "#DB543F",
+        "<https://ontologias.pruebas.org/v1.0/DisposiciónFinal>": "#DB543F",
+        "<https://ontologias.pruebas.org/v1.0/Tortura>": "#EB4007",
+        "<https://ontologias.pruebas.org/v1.0/Traslado>": "#F55397",
+        "<https://ontologias.pruebas.org/v1.0/Incomunicación>": "#DB334A",
+        "<https://ontologias.pruebas.org/v1.0/Cautiverio>": "#EB7D07",
+        "<https://ontologias.pruebas.org/v1.0/Captura>": "#EB8691",
+        "<https://ontologias.pruebas.org/v1.0/Asesinato>": "#F54725"
+    
+}

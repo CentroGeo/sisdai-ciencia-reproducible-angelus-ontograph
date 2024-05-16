@@ -1,0 +1,38 @@
+html, body, .v-application, .v-application--wrap, .v-main, .v-main__wrap, .main_router{
+    overflow: hidden !important;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+::-webkit-scrollbar {
+    width: .3em;
+    height: .3em;
+}
+::-webkit-scrollbar-thumb {
+    background: #9e9e9e;
+    border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #666666;
+}
+::-webkit-scrollbar-track{
+    border-radius: 2px;
+}
+
+
+.cool-background{
+  background: rgb(54,141,159);
+  background: radial-gradient(circle, rgb(94, 94, 94) 0%, rgb(31, 31, 31) 100%);
+}
+
+@import "./tooltip.scss"

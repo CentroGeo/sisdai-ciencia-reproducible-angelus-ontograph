@@ -1,0 +1,69 @@
+{
+  "name": "anotador",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 80 --host 0.0.0.0",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "d3": "^6.5.0",
+    "d3-force": "^2.1.1",
+    "file-saver": "^2.0.5",
+    "keycloak-js": "^12.0.2",
+    "lodash": "^4.17.20",
+    "panzoom": "^9.4.1",
+    "pg": "^7.18.2",
+    "save-svg-as-png": "^1.4.17",
+    "v-tooltip": "^2.1.3",
+    "vue": "^2.6.14",
+    "vue-cookies": "^1.8.1",
+    "vue-easy-dnd": "^1.10.2",
+    "vue-i18n": "^8.22.4",
+    "vue-js-modal": "^1.3.35",
+    "vue-lodash": "^2.1.2",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.5.1",
+    "vue-toastification": "^0.9.0",
+    "vuetify": "^2.5.6",
+    "vuex": "^3.6.2",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.1.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.7.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "no-useless-escape": "off",
+      "require-prop-type-constructor": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
