@@ -18,7 +18,7 @@ Estas funcionalidades permiten explorar poco a poco un grafo de conocimiento que
 Para instrucciones de despliegue, vea la[ sección en inglés más abajo](#deployment).
 
 ## Este código fue desarrollado por 
-* [Sebastian Casillas](https://github.com/sebastian-casillas)
+* [Sebastian Casillas](https://github.com/sebastian-casillas) como parte del Proyecto Angelus, financiado por CONACYT bajo el convenio 321368.
 
 ### English Version
 
@@ -67,4 +67,5 @@ Launching Ontograph requires basic familiarty with Docker.
 
 
 ## This code was developed by
-* [Sebastian Casillas](https://github.com/sebastian-casillas)
+* [Sebastian Casillas](https://github.com/sebastian-casillas) as part of Project Angelus. Funded by CONACYT
+(Mexican Ministry of Science) under grant 321368.
